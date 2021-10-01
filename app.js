@@ -16,12 +16,10 @@ function next(){
         else{
         imageIndex++;
 
-        }
-
-
-
-    
+        }   
   }
+
+  
 function back(){
  image.style.backgroundImage = `url(${imageArray[imageIndex]})`;
  if(imageIndex==1){
