@@ -19,7 +19,6 @@ function next(){
         }   
   }
 
-  
 function back(){
  image.style.backgroundImage = `url(${imageArray[imageIndex]})`;
  if(imageIndex==1){
