@@ -9,19 +9,30 @@ let imageIndex=1;
 
 function next(){
 // image.style.backgroundImage=`url({imageArray[imageIndex]})`
- image.style.backgroundImage = `url(${imageArray[imageIndex]})`;
-
-//  image.setAttribute("src",imageArray[imageIndex]);
-
-        // console.log(imageArray[i])
-
+    image.style.backgroundImage = `url(${imageArray[imageIndex]})`;
+        if(imageIndex==5){
+           imageIndex=0
+        }
+        else{
         imageIndex++;
+
+        }
+
+
 
     
   }
 function back(){
  image.style.backgroundImage = `url(${imageArray[imageIndex]})`;
- imageIndex--;
+ if(imageIndex==1){
+   imageIndex=5
+    }
+    else{
+      imageIndex--;
+
+    }
+
+ 
 
 
 }
