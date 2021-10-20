@@ -1,2 +1,2 @@
 # Imageslider
-<a hrerf="https://irayya-hiremath.github.io/ImageSlider/">Demo</a>
+<a href="https://irayya-hiremath.github.io/ImageSlider/">Demo</a>
